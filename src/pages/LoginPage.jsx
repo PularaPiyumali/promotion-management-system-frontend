@@ -134,7 +134,7 @@ const Login = () => {
         <Link to="/admins" style={styles.link}>
           Register here
         </Link>
-      </div> */}
+      </div>*/}
     </div>
   );
 };

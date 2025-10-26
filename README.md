@@ -67,35 +67,6 @@ A ReactJS frontend application for the Promotion Management System. Provides a u
 
    http://localhost:3000
 
-### Folder Structure
-
-promotion-management-system-frontend/
-  src/
-    components/        # Reusable UI components
-      Button.jsx
-      Input.jsx
-      PromotionForm.jsx
-      PromotionTable.jsx
-      UserForm.jsx
-      UserTable.jsx
-    pages/             # Application pages
-      AdminHome.jsx
-      EditPromotionPage.jsx
-      EditUserPage.jsx
-      LoginPage.jsx
-      Promotions.jsx
-      RegisterPage.jsx
-      UserHome.jsx
-    services/          # API and Auth services
-      api.js
-      authService.js
-      index.js
-    App.js             # Root application component
-    index.js           # Entry point
-    .env.example       # Environment variable template
-    .env.local         # Local environment variables
-
-
 ### API Integration
 
 The frontend communicates with the backend through REST APIs.

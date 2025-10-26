@@ -70,18 +70,30 @@ A ReactJS frontend application for the Promotion Management System. Provides a u
 ### Folder Structure
 
 promotion-management-system-frontend/
-│
-├── src/
-│   ├── components/       # Reusable UI components (buttons, inputs, etc.)
-│   ├── pages/            # Pages like Login, Register, Promotions, Admin, etc.
-│   ├── services/         # API calls (authService, promotionService, etc.)
-│   ├── App.jsx           # Main app component
-│   ├── index.js          # Entry point
-│   └── styles/           # CSS or styling files
-│
-├── public/               # Static files
-├── package.json
-└── .env
+  src/
+    components/        # Reusable UI components
+      Button.jsx
+      Input.jsx
+      PromotionForm.jsx
+      PromotionTable.jsx
+      UserForm.jsx
+      UserTable.jsx
+    pages/             # Application pages
+      AdminHome.jsx
+      EditPromotionPage.jsx
+      EditUserPage.jsx
+      LoginPage.jsx
+      Promotions.jsx
+      RegisterPage.jsx
+      UserHome.jsx
+    services/          # API and Auth services
+      api.js
+      authService.js
+      index.js
+    App.js             # Root application component
+    index.js           # Entry point
+    .env.example       # Environment variable template
+    .env.local         # Local environment variables
 
 
 ### API Integration
@@ -113,6 +125,7 @@ Login Page
 Admin Dashboard
 
 <img width="1880" height="863" alt="Screenshot 2025-10-26 084055" src="https://github.com/user-attachments/assets/9b68f69d-9e82-4c8b-934e-413715a138e3" />
+
 
 
 <img width="1877" height="861" alt="Screenshot 2025-10-26 085954" src="https://github.com/user-attachments/assets/a7e06afe-235b-499c-be4e-a27c043cd92f" />

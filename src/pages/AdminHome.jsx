@@ -170,13 +170,22 @@ const AdminDashboard = () => {
 
         <Box
           component="main"
-          sx={{ flexGrow: 1, p: 3, backgroundColor: "#f8f8f8" }}
+          sx={{ flexGrow: 1, p: 3, backgroundColor: "#f8f8f8", pb: 8 }}
         >
           {renderContent()}
         </Box>
       </Box>
 
-      <Box sx={{ backgroundColor: "#000", py: 1 }}>
+      <Box
+        sx={{
+          backgroundColor: "#000",
+          py: 1,
+          position: "fixed",
+          bottom: 0,
+          left: 0,
+          width: "100%",
+        }}
+      >
         <Typography color="#fff" align="center">
           © 2025 All rights reserved.
         </Typography>

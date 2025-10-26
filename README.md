@@ -71,34 +71,31 @@ A ReactJS frontend application for the Promotion Management System. Provides a u
 
 promotion-management-system-frontend/
 │
-src/
-│
-├── components/ # Reusable UI components
-│ ├── Button.jsx
-│ ├── Input.jsx
-│ ├── PromotionForm.jsx
-│ ├── PromotionTable.jsx
-│ ├── UserForm.jsx
-│ └── UserTable.jsx
-│
-├── pages/ # Application pages
-│ ├── AdminHome.jsx
-│ ├── EditPromotionPage.jsx
-│ ├── EditUserPage.jsx
-│ ├── LoginPage.jsx
-│ ├── Promotions.jsx
-│ ├── RegisterPage.jsx
-│ └── UserHome.jsx
-│
-├── services/ # API and Auth services
-│ ├── api.js
-│ ├── authService.js
-│ └── index.js
-│
-├── App.js # Root application component
-├── index.js # Entry point
-├── .env.example # Environment variable template
-└── .env.local # Local environment variables
+├── src/
+│ ├── components/ # Reusable UI components
+│ │ ├── Button.jsx
+│ │ ├── Input.jsx
+│ │ ├── PromotionForm.jsx
+│ │ ├── PromotionTable.jsx
+│ │ ├── UserForm.jsx
+│ │ └── UserTable.jsx
+│ ├── pages/ # Application pages
+│ │ ├── AdminHome.jsx
+│ │ ├── EditPromotionPage.jsx
+│ │ ├── EditUserPage.jsx
+│ │ ├── LoginPage.jsx
+│ │ ├── Promotions.jsx
+│ │ ├── RegisterPage.jsx
+│ │ └── UserHome.jsx
+│ ├── services/ # API and Auth services
+│ │ ├── api.js
+│ │ ├── authService.js
+│ │ └── index.js
+│ ├── App.js # Root application component
+│ ├── index.js # Entry point
+│ ├── .env.example # Environment variable template
+│ └── .env.local # Local environment variables
+
 
 ### API Integration
 
@@ -126,14 +123,35 @@ Login Page
 <img width="1878" height="872" alt="Screenshot 2025-10-26 084128" src="https://github.com/user-attachments/assets/10fe6ce5-e9f0-45bb-9880-1d860e32552e" />
 
 
-Register Page
-
 Admin Dashboard
+
+<img width="1880" height="863" alt="Screenshot 2025-10-26 084055" src="https://github.com/user-attachments/assets/9b68f69d-9e82-4c8b-934e-413715a138e3" />
+
+
+<img width="1877" height="861" alt="Screenshot 2025-10-26 085954" src="https://github.com/user-attachments/assets/a7e06afe-235b-499c-be4e-a27c043cd92f" />
+
 
 User Dashboard
 
-Promotions List
+<img width="1883" height="865" alt="Screenshot 2025-10-26 090012" src="https://github.com/user-attachments/assets/882ba45b-9430-4bde-ab9d-90efe812f876" />
 
-Create/Edit Promotion
 
-Create/Edit User (Admin)
+Create Users (Admin)
+
+<img width="1871" height="854" alt="Screenshot 2025-10-26 084215" src="https://github.com/user-attachments/assets/ca779bf6-2799-408a-8d1a-c0c594a2b22d" />
+
+
+Edit Users (Admin)
+
+<img width="1863" height="857" alt="Screenshot 2025-10-26 084237" src="https://github.com/user-attachments/assets/c50552b9-fecc-4161-8ab9-563873a11517" />
+
+
+Create Promotions (Admin/User)
+
+<img width="1875" height="856" alt="Screenshot 2025-10-26 084405" src="https://github.com/user-attachments/assets/b78fb5e7-0046-432c-b5ec-f0192a8e568a" />
+
+
+Edit Promotion (Admin/User)
+
+<img width="1888" height="858" alt="Screenshot 2025-10-26 084433" src="https://github.com/user-attachments/assets/2fa64cbb-2997-429f-a929-c5bd6be74302" />
+

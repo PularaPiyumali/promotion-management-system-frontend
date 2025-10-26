@@ -128,13 +128,6 @@ const Login = () => {
           {loading ? "Logging in..." : "Login"}
         </button>
       </form>
-
-      {/* <div style={styles.footer}>
-        Don't have an account?{" "}
-        <Link to="/admins" style={styles.link}>
-          Register here
-        </Link>
-      </div>*/}
     </div>
   );
 };

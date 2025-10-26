@@ -136,7 +136,7 @@ const UserDashboard = () => {
           </Box>
 
           <Box sx={{ px: 2, py: 1, backgroundColor: "#000" }}>
-            <Typography variant="caption" color="#fff" align="center">
+            <Typography variant="caption" color="#000" align="center">
               © 2025 All rights reserved.
             </Typography>
           </Box>
@@ -144,13 +144,22 @@ const UserDashboard = () => {
 
         <Box
           component="main"
-          sx={{ flexGrow: 1, p: 3, backgroundColor: "#f8f8f8" }}
+          sx={{ flexGrow: 1, p: 3, backgroundColor: "#f8f8f8", pb: 8 }}
         >
           <PromotionsTable />
         </Box>
       </Box>
 
-      <Box sx={{ backgroundColor: "#000", py: 1 }}>
+      <Box
+        sx={{
+          backgroundColor: "#000",
+          py: 1,
+          position: "fixed",
+          bottom: 0,
+          left: 0,
+          width: "100%",
+        }}
+      >
         <Typography color="#fff" align="center">
           © 2025 All rights reserved.
         </Typography>

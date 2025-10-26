@@ -123,6 +123,9 @@ Below are the key endpoints it uses:
 
 Login Page
 
+<img width="1878" height="872" alt="Screenshot 2025-10-26 084128" src="https://github.com/user-attachments/assets/10fe6ce5-e9f0-45bb-9880-1d860e32552e" />
+
+
 Register Page
 
 Admin Dashboard
